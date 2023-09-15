@@ -18,8 +18,9 @@ void setup()
   println(myStudent1.name);
   println(myStudent2.name);
 
-  boolean isClassmates = isClassmates(myStudent1, myStudent2);
-  if (isClassmates == true) {
+
+  if (isClassmates (myStudent1, myStudent2)) 
+  {
     println(myStudent1.name + " and " + myStudent2.name + " are classmates");
   } else {
     println("if they are not");
